@@ -294,20 +294,5 @@ namespace RoboShooter
             playerController.BringToFront();
             robots.BringToFront();
         }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
