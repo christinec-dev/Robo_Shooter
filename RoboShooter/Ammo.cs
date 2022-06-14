@@ -9,10 +9,10 @@ using Timer = System.Windows.Forms.Timer;
 
 namespace RoboShooter
 {
-    //will create bullets on our screen
+    //will spawn bullets on our screen
     class bullet
     {
-        //publci variables
+        //public variables
         public string direction;
         public int bulletSpeed = 20; 
         public int bulletLeft; 
@@ -37,7 +37,7 @@ namespace RoboShooter
             bulletSpread.Start(); 
         }
 
-        //direction of the buttllet
+        //direction of the bullet
         public void bulletSpreadTick(object sender, EventArgs e)
         {
             if (direction == "left")
